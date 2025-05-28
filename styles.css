@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.section-wrapper {
+  padding: 0px 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+
+  color: #ffffff;
+  background: #043873;
+  /* max-width: 100%; */
+}
+
+.nav-logo {
+  display: flex;
+}
+
+.nav-logo img {
+  width: 76%;
+}
+
+.navbar-middle {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar-middle a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-middle a:hover {
+  color: #d4d4d4;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-right .login-button {
+  color: #000000;
+  background-color: #ffe492;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.free-trial-button {
+  color: #ffffff;
+  background-color: #4f9cf9;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+/***** Hero *****/
+
+.hero {
+  height: 680px;
+  color: #ffffff;
+  background-color: #043873;
+  background-image: url("assets/Element.png");
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-left h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  word-wrap: break-word;
+  max-width: 600px;
+  margin-bottom: 46px;
+}
+
+.hero-right .image {
+  width: 700px;
+  height: 400px;
+  background-color: bisque;
+}
+
+/***** Project Management Section *****/
+
+.project-management-section {
+  height: 660px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pms-left h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.pms-left button {
+  color: #ffffff;
+  background-color: #4f9cf9;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.pms-left p {
+  word-wrap: break-word;
+  max-width: 600px;
+  margin-bottom: 46px;
+}
+
+.pms-right .image {
+  width: 700px;
+  height: 400px;
+  background-color: bisque;
+}
+
+/***** Work Together Section *****/
+
+.work-together-section {
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wts-left .image {
+  width: 700px;
+  height: 400px;
+  background-color: bisque;
+}
+
+.wts-right p {
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+/***** Use as Extension Section *****/
+
+.use-as-extension-section {
+  height: 500px;
+  color: #ffffff;
+  background: #043873;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uaes-left p {
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+.uaes-right .image {
+  width: 700px;
+  height: 400px;
+  background-color: bisque;
+}
+
+/***** Customise it Section *****/
+
+.customise-it-section {
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cis-left .image {
+  width: 700px;
+  height: 400px;
+  background-color: bisque;
+}
+
+.cis-right p {
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+/***** Choose Your Plan Section *****/
+
+.choose-your-plan-section {
+}
+
+.cyp-top {
+  h2,
+  p {
+    text-align: center;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  padding: 16px; /* Optional padding for the container */
+}
+
+.grid-container ul {
+  list-style: none;
+}
+
+.grid-item-1,
+.grid-item-3 {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid-item-2 {
+  color: #ffffff;
+  background-color: #043873;
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/***** Your Work Everywhere Section *****/
+
+.your-work-everywhere-section {
+  height: 500px;
+  background: #043873;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** Your Work Everywhere Section *****/
+
+.your-data-section {
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** Sponsors Section *****/
+
+.sponsors-section {
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** Customise it Section *****/
+
+.favorite-apps-section {
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fas-left .image {
+  width: 700px;
+  height: 400px;
+  background-color: bisque;
+}
+
+.fas-right p {
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+/***** What Our Clients Says Section *****/
+
+.what-clients-says-section {
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** Try Whitespace today Section *****/
+
+.try-whitespace-today-section {
+  color: #ffffff;
+  background-color: #043873;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.try-whitespace-today-section .os-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+/***** Footer *****/
+
+footer {
+  color: #ffffff;
+  background-color: #043873;
+}
+
+.footer-part-1 {
+  display: flex;
+}
+
+.footer-part-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-part-2 .footer-part-2-left a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-part-2 .footer-part-2-left a:hover {
+  color: #d8d8d8;
+  text-decoration: underline;
+}
