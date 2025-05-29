@@ -51,7 +51,7 @@
     <!-- Project Management -->
     <section class="project-management-section section-wrapper">
       <div class="pms-left">
-        <h1>Project Management</h1>
+        <h2>Project Management</h2>
         <p>
           Images, videos, PDFs and audio files are supported. Create math
           expressions and diagrams directly from the app. Take photos with the
@@ -66,7 +66,8 @@
     <!-- Work Together -->
     <section class="work-together-section section-wrapper">
       <div class="wts-left">
-        <div class="image"></div>
+        <img src="assets/Work Together Image.png" alt="" srcset="">
+        <!-- <div class="image"></div> -->
       </div>
       <div class="wts-right">
         <h2>Work together</h2>
@@ -86,7 +87,7 @@
           Use the web clipper extension, available on Chrome and Firefox, to
           save web pages or take screenshots as notes.
         </p>
-        <button>Let's Go</button>
+        <button>Let's Go →</button>
       </div>
       <div class="uaes-right">
         <div class="image"></div>
@@ -104,7 +105,7 @@
           editors (Rich Text or Markdown). Or create your own scripts and
           plugins using the Extension API.
         </p>
-        <button>Let's Go</button>
+        <button>Let's Go →</button>
       </div>
     </section>
     <!-- Choose Your Plan -->
@@ -116,11 +117,13 @@
           or boost workplace productivity, Evernote has the right plan for you.
         </p>
       </div>
-      <div class="grid-container">
+      <div class="cyp-grid-container">
         <div class="grid-item-1">
-          <h3>Free</h3>
-          <h3>$0</h3>
-          <p>Capture ideas and find them quickly</p>
+          <div class="grid-item-top">
+            <p class="grid-item-top-title">Free</p>
+            <h3>$0</h3>
+            <p>Capture ideas and find them quickly</p>
+          </div>
           <ul>
             <li>
               <span class="material-symbols-outlined">task_alt</span>
@@ -146,12 +149,17 @@
               <span class="material-symbols-outlined">task_alt</span>
               Add due dates, reminders, and notifications to your tasks
             </li>
+            <li>
+              <button>Get Started</button>
+            </li>  
           </ul>
         </div>
         <div class="grid-item-2">
-          <h3>Personal</h3>
-          <h3>$11.99</h3>
-          <p>Keep home and family on track</p>
+          <div class="grid-item-top">
+            <p class="grid-item-top-title">Personal</p>
+            <h3>$11.99</h3>
+            <p>Keep home and family on track</p>
+          </div>
           <ul>
             <li>
               <span class="material-symbols-outlined">task_alt</span>
@@ -176,13 +184,19 @@
             <li>
               <span class="material-symbols-outlined">task_alt</span>
               Add due dates, reminders, and notifications to your tasks
+            </li>
+            <li>
+              <button>Get Started</button>
             </li>
           </ul>
+
         </div>
         <div class="grid-item-3">
-          <h3>Organization</h3>
-          <h3>$49.99</h3>
-          <p>Capture ideas and find them quickly</p>
+          <div class="grid-item-top">
+            <p class="grid-item-top-title">Organization</p>
+            <h3>$49.99</h3>
+            <p>Capture ideas and find them quickly</p>
+          </div>
           <ul>
             <li>
               <span class="material-symbols-outlined">task_alt</span>
@@ -207,6 +221,9 @@
             <li>
               <span class="material-symbols-outlined">task_alt</span>
               Add due dates, reminders, and notifications to your tasks
+            </li>
+            <li>
+              <button>Get Started</button>
             </li>
           </ul>
         </div>
@@ -214,29 +231,34 @@
     </section>
     <!-- Your work, everywhere you are -->
     <section class="your-work-everywhere-section section-wrapper">
-      <h1>Your work, everywhere you are</h1>
+      <h2>Your work, everywhere you are</h2>
       <p>
         Access your notes from your computer, phone or tablet by synchronising
         with various services, including whitepace, Dropbox and OneDrive. The
         app is available on Windows, macOS, Linux, Android and iOS. A terminal
         app is also available!
       </p>
-      <button>Try Taskey</button>
+      <button>Try Taskey →</button>
     </section>
     <!-- 100% your data -->
-    <section class="your-data-section">
-      <h1>100% your data</h1>
-      <p>
-        The app is open source and your notes are saved to an open format, so
-        you'll always have access to them. Uses End-To-End Encryption (E2EE) to
-        secure your notes and ensure no-one but yourself can access them.
-      </p>
-      <button>Read more</button>
+    <section class="your-data-section section-wrapper">
+      <div class="yds-left">
+        <h2>100% your data</h2>
+        <p>
+          The app is open source and your notes are saved to an open format, so
+          you'll always have access to them. Uses End-To-End Encryption (E2EE) to
+          secure your notes and ensure no-one but yourself can access them.
+        </p>
+        <button>Read more →</button>
+      </div>
+      <div class="yds-right">
+        <img src="assets/Element-2.png" alt="">
+      </div>
     </section>
     <!-- Our sponsors -->
-    <section class="sponsors-section">
-      <h1>Our sponsors</h1>
-      <div class="sponsors-logos">
+    <section class="sponsors-section section-wrapper">
+      <h2>Our sponsors</h2>
+      <div class="sponsors-logos-container">
         <img src="assets/logos/Apple.png" alt="" />
         <img src="assets/logos/Microsoft.png" alt="" />
         <img src="assets/logos/Slack.png" alt="" />
@@ -244,9 +266,9 @@
       </div>
     </section>
     <!-- Work with Your Favorite Apps -->
-    <section class="favorite-apps-section">
+    <section class="favorite-apps-section section-wrapper">
       <div class="fas-left">
-        <div class="image"></div>
+        <img src="assets/Apps.png" alt="" srcset="">
       </div>
       <div class="fas-right">
         <h2>Work with Your Favorite Apps Using whitepace</h2>
@@ -255,13 +277,63 @@
           1000+ apps with Zapier to have all the tools you need for your project
           success.
         </p>
-        <button>Read more</button>
+        <button>Read more →</button>
       </div>
     </section>
     <!-- What Our Clients Says -->
-    <section class="what-clients-says-section">
+    <section class="what-clients-says-section section-wrapper">
       <h2>What Our Clients Says</h2>
-      <div class="testimonies-carousel"></div>
+      <div class="testimonies-carousel">
+
+        <div class="testimony-card">
+          <img src="assets/DoubleQuote-1.png" alt="">
+          <p>
+            Whitepace is designed as a collaboration tool for businesses that is a 
+            full project management solution.
+          </p>
+          <hr>
+          <div class="client-profile">
+            <img src="assets/Avatar-1.png" alt="">
+            <div class="client-profile-info-container">
+              <p>Oberon Shaw, MCH</p>
+              <p>Head of Talent Acquisition, North America</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimony-card">
+          <img src="assets/DoubleQuote-2.png" alt="">
+          <p>
+            Whitepace is designed as a collaboration tool for businesses that is a 
+            full project management solution.
+          </p>
+          <hr>
+          <div class="client-profile">
+            <img src="assets/Avatar-2.png" alt="">
+            <div class="client-profile-info-container">
+              <p>Oberon Shaw, MCH</p>
+              <p>Head of Talent Acquisition, North America</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimony-card">
+          <img src="assets/DoubleQuote-2.png" alt="">
+          <p>
+            Whitepace is designed as a collaboration tool for businesses that is a 
+            full project management solution.
+          </p>
+          <hr>
+          <div class="client-profile">
+            <img src="assets/Avatar-3.png" alt="">
+            <div class="client-profile-info-container">
+              <p>Oberon Shaw, MCH</p>
+              <p>Head of Talent Acquisition, North America</p>
+            </div>          
+          </div>
+        </div>
+
+      </div>
       <img src="assets/Slider.png" alt="" />
     </section>
     <!-- Try Whitespace today -->
