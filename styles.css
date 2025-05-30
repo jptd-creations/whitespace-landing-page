@@ -50,6 +50,7 @@ nav {
 
 .navbar-right .login-button {
   color: #000000;
+  font-weight: 500;
   background-color: #ffe492;
   padding: 12px 20px;
   border-radius: 6px;
@@ -59,6 +60,7 @@ nav {
 
 .navbar-right .free-trial-button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -96,6 +98,7 @@ nav {
 
 .hero-left .free-trial-button {
     justify-self: start;
+    font-weight: 500;
     padding: 12px 16px;
     background-color: #4f9cf9; 
     color: #fff;
@@ -139,6 +142,7 @@ nav {
 
 .pms-left button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -189,6 +193,7 @@ nav {
 
  .wts-right button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -223,6 +228,7 @@ nav {
 
 .uaes-left button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -276,6 +282,7 @@ nav {
 
 .cis-right button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -358,6 +365,7 @@ nav {
 .cyp-grid-container .grid-item-1 button,
 .cyp-grid-container .grid-item-3 button {
   color: #000000;
+  font-weight: 500;
   background-color: #ffffff;
   border: 1px solid gray;
   padding: 12px 16px;
@@ -367,6 +375,7 @@ nav {
 
 .cyp-grid-container .grid-item-2 button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -420,6 +429,7 @@ nav {
 
 .your-work-everywhere-section button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -452,6 +462,7 @@ nav {
 
 .yds-left button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -524,6 +535,7 @@ nav {
 
 .fas-right button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -584,42 +596,6 @@ nav {
   margin-bottom: 20px;
 }
 
-/*
-
-.pms-left {
-  width: 580px;
-}
-
-.pms-left h2,
-.pms-left p {
-  margin-bottom: 40px;
-}
-
-.pms-left h2 {
-  font-size: 60px;
-}
-
-.pms-left button {
-  color: #ffffff;
-  background-color: #4f9cf9;
-  padding: 12px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  border: none;
-}
-
-.pms-right {
-  height: 400px;
-}
-
-.pms-right .image {
-  width: 640px;
-  height: 100%;
-  background-color: #A7CEFC;
-}
-
-*/
-
 /***** Try Whitespace today Section *****/
 
 .try-whitespace-today-section {
@@ -645,6 +621,7 @@ nav {
 
 .try-whitespace-today-section button {
   color: #ffffff;
+  font-weight: 500;
   background-color: #4f9cf9;
   padding: 12px 16px;
   border-radius: 6px;
@@ -662,19 +639,71 @@ nav {
 /***** Footer *****/
 
 footer {
-  height: 700px;
+  height: 300px;
   color: #ffffff;
   background-color: #043873;
 }
 
 .footer-part-1 {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+
+/* Line Height Footer Item 1 to 4 */
+.footer-part-1 .footer-item:nth-child(1),
+.footer-part-1 .footer-item:nth-child(2),
+.footer-part-1 .footer-item:nth-child(3),
+.footer-part-1 .footer-item:nth-child(4) {
+  line-height: 2;
+}
+
+/* Footer Item 1 */
+.footer-part-1 .footer-item:nth-child(1) p{
+  width: 300px;
+}
+
+/* Footer Item 2 */
+.footer-part-1 .footer-item:nth-child(2) p:nth-of-type(1) {
+  color: #FFE492;
+}
+
+/* Footer Item 5 */
+.footer-part-1 .footer-item:nth-child(5){
+  width: 260px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.footer-part-1 .footer-item:nth-child(5) h3{
+  font-size: 24px;
+}
+
+.footer-part-1 .footer-item:nth-child(5) button {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #4f9cf9;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
 }
 
 .footer-part-2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-part-2-left {
+  display: flex;
+  gap: 60px;
 }
 
 .footer-part-2 .footer-part-2-left a {
@@ -685,4 +714,9 @@ footer {
 .footer-part-2 .footer-part-2-left a:hover {
   color: #d8d8d8;
   text-decoration: underline;
+}
+
+.footer-part-2-right {
+  display: flex;
+  gap: 30px;
 }
